@@ -39,11 +39,13 @@ export const ContainerItens = styled.div`
   form {
     margin: 0 10px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
 			width: 100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+
+      overflow: hidden;
 		}
   }
 `;
