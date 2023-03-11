@@ -39,6 +39,7 @@ export const ContainerItens = styled.div`
 	@media (max-width: 768px) {
 		width: 100%;
 		overflow: hidden;
+		margin: 0 10px;
 	}
 `
 
@@ -73,6 +74,10 @@ export const Input = styled.input`
 	outline: none;
 	border: ${(props) => (props.error ? '2px solid #cc1717;' : 'none')};
 	padding: 0 10px;
+
+	@media (max-width: 768px) {
+		width: 330px;
+	}
 `
 
 export const ErrorMessage = styled.p`
