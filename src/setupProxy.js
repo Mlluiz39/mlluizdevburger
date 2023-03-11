@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware')
 module.exports = app => {
   app.use(
     createProxyMiddleware('/', {
-      target: 'https://node-burger.netlify.app/order',
+      target: 'https://mlluizdevcluburger.netlify.app/login',
       changeOrigin: true,
     })
   )
