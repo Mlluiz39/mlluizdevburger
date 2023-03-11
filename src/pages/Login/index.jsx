@@ -17,7 +17,8 @@ import {
 	Label,
 	Input,
 	ErrorMessage,
-	SignInLink
+	SignInLink,
+	Form
 } from './styles'
 
 function login() {
@@ -63,7 +64,7 @@ function login() {
 
 				<h1>Login</h1>
 
-				<form noValidate onSubmit={handleSubmit(onSubmit)}>
+				<Form noValidate onSubmit={handleSubmit(onSubmit)}>
 					<Label>
 						Email
 						<Input
@@ -93,7 +94,7 @@ function login() {
 					<SignInLink>
 						Não tem uma conta ? <Link to="/cadastro">Cadastre-se</Link>
 					</SignInLink>
-				</form>
+				</Form>
 			</ContainerItens>
 		</Container>
 	)
