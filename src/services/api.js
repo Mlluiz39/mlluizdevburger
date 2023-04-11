@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiDevBurger = axios.create({
-  baseURL: 'https://apidevburger.onrender.com/'
+  baseURL: 'https://apinodeburger.fly.dev/'
 })
 
 apiDevBurger.interceptors.request.use(async (config) => {
